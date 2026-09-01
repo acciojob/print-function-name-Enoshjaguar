@@ -3,4 +3,5 @@ function AccioJob() {
 	return arguments.callee.name
 	
 }
-console.log(AccioJob())
+let ale = AccioJob()
+alert(ale)
