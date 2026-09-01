@@ -1,7 +1,7 @@
 //your JS code here. If required.
-function AccioJob() {
+function functionName() {
 	return arguments.callee.name
 	
 }
-let ale = AccioJob()
+let ale = functionName()
 alert(ale)
